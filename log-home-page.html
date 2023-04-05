@@ -1,11 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Logan Newkirk Website</title>
-        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8"
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Logan Newkirk Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="parallaxEffect.js"></script>
+         <!-- Add any necessary CSS and JavaScript files here -->
     </head>
     <body>
-        <h1>Logan Newkirk<h1> 
-            <h4><i>a collection of projects</i></h4>
+        <!--intro section-->
+        <section id="intro" data-speed="10">
+            <h1>Logan Newkirk</h1>
+            <p>a collection of projects></p>
+        </section>
+
+        <!--images section-->
+        <section id="images" data-speed="5">
+            <h2>graphic projects</h2>
+            <div class="accordion">
+                <div class="item">
+                    <img src="path/to/image1.jpg" alt="image 1">
+                    <div class="content">
+                        <p>description of image</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="path/to/image2.png" alt="image 2">
+                    <div class="content">
+                        <p>description of image</p>
+                    </div>
+                </div>
+                <!--add more images as necessary-->
+            </div>
+        </section>
+
+        <!--video section-->
+        <section id="videos" data-speed="3">
+            <h2>video projects</h2>
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/video_here"></iframe>
+            </div>
+        </section>
+
+        <!--contact info section-->
+        <section id="contact" data-speed="1">
+            <h2>contact me</h2>
+            <p>feel free to reach me through any of these means</p>
+            <ul>
+                <li>email: logananewkirk@gmail.com</li>
+                <li>phone: 815.383.8114</li>
+                <li>linkedin: linkedinprofilelink</li>
+            </ul>
+        </section>
+
+        <!--any necessary JavaScript files here-->
     </body>
 </html>
