@@ -1,3 +1,7 @@
+@font-face {
+  font-family: NotoSans;
+  src: url('portfolio-site/fonts.NotoSans-Light.ttf') format ('truetype');
+}
 body {
   background-image: url("path/to/background-image.jpg");
   background-size: cover;
@@ -29,9 +33,18 @@ section {
   h1 {
     color: (#FFF8ED);
     text-align: center;
+    font-family: 'NotoSans-Light';
   }
   
   p {
     font-family: verdana;
     font-size: 20px;
   }
+div {
+  margin: auto;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
