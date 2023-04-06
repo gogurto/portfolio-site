@@ -1,11 +1,30 @@
 body {
-    background-color: (#4984AB);
+  background-image: url("path/to/background-image.jpg");
+  background-size: cover;
   }
   
 section {
   height: 100vh;
   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   }
+
+  #intro {
+    background-position: center top;
+  }
+  
+  #images {
+    background-position: center 30%;
+  }
+  
+  #videos {
+    background-position: center 70%;
+  }
+  
+  #contact {
+    background-position: center bottom;
+  }  
 
   h1 {
     color: (#FFF8ED);
